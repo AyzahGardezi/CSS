@@ -1,2 +1,0 @@
-Why is the search button coming on the left side when I set float: right?
-
