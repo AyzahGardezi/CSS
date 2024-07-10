@@ -1,0 +1,138 @@
+#top-bar
+{
+    padding:10%;
+    height: 15px;
+    margin:auto;
+    margin-top: 5%;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: brown blue green purple;
+}
+#bar2
+{
+    padding:2%;
+    height: 15px;
+    margin:20px;
+    border-style:dashed;
+    border-width: 2px;
+    border-color: brown purple;
+}
+
+#bar3
+{
+    padding:2%;
+    height: 15px;
+    margin:20px;
+    border-style:double;
+    border-width: 2px;
+    border-color: purple brown green;
+}
+
+#bar4
+{
+    padding:0.5%;
+    height: 15px;
+    margin:20px;
+    border-bottom: 2px blueviolet double;
+}
+#bar5
+{
+    padding:1%;
+    height: 15px;
+    margin:20px;
+    border-style: groove;
+    border-width: 10px;
+}
+
+body
+{
+    margin:2%
+}
+
+#main-body
+{
+    border-radius:5px;
+    padding:5%;
+    color:white;
+    font-size: large;
+    margin:20px;
+    /* background-image: url('wl-op-25s.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed; */
+    background: url(wl-op-25s.jpg) no-repeat fixed;
+    outline-style: solid;
+    outline-color: rgb(156, 56, 206);
+}
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  font-family: "Helvetica", sans-serif;
+}
+
+a:link
+{
+    color:red;
+}
+a:visited
+{
+    color:green;
+}
+a:hover
+{
+    color: hotpink;
+}
+a:active
+{
+    color:purple;
+}
+
+#JenkinsLink
+{
+    padding: 1%;
+    margin-bottom: 5%;
+    border: 1px;
+    border-color: cadetblue;
+    background-color: blanchedalmond;
+}
+
+ul{
+    list-style-image: url('bullet.jpg');
+    list-style-position: inside;
+}
+
+a.one:hover{
+    font-size: large;
+}
+
+a.two:hover{
+    font-family:'Courier New', monospace;
+}
+
+a.three:hover{
+    font-style: italic;
+}
+
+a.four{
+    text-decoration: none;
+}
+a.four:hover{
+    text-decoration: underline;
+}
+/* top right bottom left */
+/* 
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue; */

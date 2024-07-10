@@ -1,0 +1,151 @@
+body
+{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#top-bar
+{
+    background-color: black;
+    color: white;
+    padding: 1% 10%;
+}
+
+a.top-bar-links
+{
+    padding: 1%;
+    text-decoration: none;
+    color:white;
+}
+a.top-bar-links:link
+{
+    color:white;
+}
+
+a.top-bar-links:hover
+{
+    color: grey;
+}
+
+#search
+{
+  float:right;  
+}
+
+#subject
+{
+    background-color: rgb(137, 200, 0);
+    height:auto;
+    padding:5%;
+    text-align: center;
+    color: hsla(88, 100%, 77%, 0.923);
+    display:block;
+
+}
+
+#name
+{
+    font-size: 400%;
+}
+
+#subjectline
+{
+    font-size: 125%;
+}
+
+#engage-now
+{
+    font-size: 90%;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color:rgb(89, 122, 255);
+    color:white;
+    border-radius: 5px;
+    border-color: rgb(58, 79, 162);
+    text-decoration: none;
+}
+
+#engage-now:hover
+{
+    background-color: rgb(58, 79, 162);
+}
+
+
+#pictures
+{
+    text-align: center;
+    margin: 5%;
+    padding: 0 3%;
+    color: grey;
+}
+
+
+.h2-imitation
+{
+    font-size: 200%;
+    color: black;
+}
+
+.h4-imitation
+{
+    font-size: 130%;
+    color: rgb(90, 89, 89);
+}
+
+.container
+{
+    display: flex;
+}
+
+
+.picture-elements {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    /* border: 2px solid #ccc; */
+    size: 30%;
+}
+
+.picture-elements img{
+    height: 100%;
+    width: 100%;
+    size: 30%;
+    object-fit: contain;
+    border-radius: 7px;
+}
+
+.pic-titles
+{
+    font-size: 150%;
+}
+
+#icon-section
+{
+    background-color: rgb(226, 165, 61);
+}
+
+.icons
+{
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    size: 30%;
+}
+
+#bottom
+{
+    text-align: center;    
+    padding: 1%;
+}
+
+a#bottom:link
+{
+    text-decoration: none;
+    color: rgb(0, 115, 255);
+}
+
+a#bottom:hover
+{
+    text-decoration: underline;
+    color: rgb(0, 55, 123);
+}
